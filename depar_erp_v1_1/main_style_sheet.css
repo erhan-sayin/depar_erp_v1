@@ -1,0 +1,294 @@
+﻿body {
+}
+
+/*.ddl {
+    font-size: 100px;
+}*/
+
+.container_1 {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: -5px;
+    left: 250px;
+    font-size: 18px;
+}
+
+.img {
+    width: 50%;
+    height: 100px;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.header {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+
+.logo_baslik {
+    background-color: #898989;
+    height: 40px;
+    width: 12%;
+    float: left;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+
+.logo_baslik2 {
+    background-color: #898989;
+    height: 40px;
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+
+#baslik {
+    margin-left: 2%;
+    width: 72%;
+    border-radius: 10px;
+}
+
+#akademi {
+    margin-left: 2%;
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn_akademi {
+    border-radius: 10px
+}
+
+fieldset {
+    background-color: #eeeeee;
+    text-align: left;
+    font: 12px;
+    border-radius: 12px;
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    text-align: left;
+    font: 10px;
+    font-size: small;
+    border-radius: 12px;
+}
+
+
+
+
+
+.production_lines {
+    float: left;
+    margin-left: 0%;
+    margin-top: 40px;
+    width: 18%;
+    height: 350px;
+    font-size: 10px;
+}
+
+.baslik2 {
+    font-family: 'Times New Roman';
+    font-size: 13px;
+}
+
+.alt_header_clas {
+    position: relative;
+    top: 50px;
+    margin-left: 20%;
+}
+
+
+.mGrid {
+    margin-left: 3%;
+    width: 95%;
+    background-color: #fff;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+    .mGrid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        color: #717171;
+    }
+
+    .mGrid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .mGrid .alt {
+        background: #fcfcfc url(grd_alt.png) repeat-x top;
+    }
+
+    .mGrid .pgr {
+        background: #424242 url(grd_pgr.png) repeat-x top;
+    }
+
+        .mGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .mGrid .pgr a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .mGrid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+.mGrid_teklif {
+    margin-left: 2%;
+    width: 98%;
+    background-color: #fff;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+    .mGrid_teklif td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        color: #717171;
+        font-size: 0.9em;
+    }
+
+    .mGrid_teklif th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .mGrid_teklif .alt {
+        background: #fcfcfc url(grd_alt.png) repeat-x top;
+    }
+
+    .mGrid_teklif .pgr {
+        background: #424242 url(grd_pgr.png) repeat-x top;
+    }
+
+        .mGrid_teklif .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid_teklif .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .mGrid_teklif .pgr a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .mGrid_teklif .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+
+.tab {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #110fe8;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    /*width: 125px;*/
+    width: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    background: bottom;
+    background-image: none;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    /*background-color: #bbecfa;*/
+    background-color: #717171;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF;
+}
+
+.tab_selected {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #110fe8;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    /*width: 137px;*/
+    width: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    background-image: none;
+    background-repeat: no-repeat;
+    background: bottom;
+    vertical-align: bottom;
+    padding-top: 0px;
+    /*background-color: #0bb7df;*/
+    background-color: #717171;
+    border: 1px solid #FFFFFf;
+    border-radius: 12px;
+}
+
+/*Grupbox border için girilen css bilgileridir.*/
+
+.fiel_border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 0 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+.br_border {
+    width: auto; /* Or auto */
+    padding: 0 10px; /* To give a bit of padding on the left and right */
+    border-bottom: none;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    text-align: left !important;
+}

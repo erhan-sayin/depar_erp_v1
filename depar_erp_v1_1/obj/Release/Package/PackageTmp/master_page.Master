@@ -1,0 +1,517 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_page.master.cs" Inherits="depar_erp_v1_1.master_page" %>
+
+<!DOCTYPE html>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="main_style_sheet.css" rel="stylesheet" />
+<link href="menu_style_sheet.css" rel="stylesheet" />
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+    $(document).ready(function () {
+        $(".ddl").select2({
+        });
+    });
+    $(function () {
+        $("#datepicker1").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker2").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker3").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker4").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker5").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker6").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker7").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker8").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker9").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker10").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker11").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+
+    $(function () {
+        $("#datepicker12").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker13").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker14").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker15").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+
+    $(function () {
+        $("#datepicker16").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+
+    $(function () {
+        $("#datepicker17").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+
+    $(function () {
+        $("#datepicker18").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+
+    $(function () {
+        $("#datepicker19").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+
+    $(function () {
+        $("#datepicker20").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+
+    $(function () {
+        $("#datepicker21").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker22").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    //$(function () {
+    //    $("#datepicker23").datepicker({
+    //        dateFormat: 'yy-mm-dd'
+    //    });
+    //});
+    $(function () {
+        $("#datepicker24").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+    $(function () {
+        $("#datepicker25").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(function () {
+        $('[id*=lstbanka]').multiselect({
+            includeSelectAllOption: false
+        });
+    });
+    function openModal() {
+        $('#myModal').modal('show');
+    };
+    function openModal2() {
+        $('[id*=myModal_2]').modal('show');
+    };
+    function openModal3() {
+        $('[id*=myModal_3]').modal('show');
+    };
+    function openModal4() {
+        $('[id*=myModal_4]').modal('show');
+    };
+    function ChangeForm(id) {
+        var link1 = document.getElementById("a1");
+        var link2 = document.getElementById("a2");
+        var link3 = document.getElementById("a3");
+        var link4 = document.getElementById("a4");
+        var link5 = document.getElementById("a5");
+        var link6 = document.getElementById("a6");
+        var link7 = document.getElementById("a7");
+        var link8 = document.getElementById("a8");
+        var link9 = document.getElementById("a9");
+        var link10 = document.getElementById("a10");
+        var link11 = document.getElementById("a11");
+        var link12 = document.getElementById("a12");
+        var link13 = document.getElementById("a13");
+        var link14 = document.getElementById("a14");
+
+        var div1 = document.getElementById("div1");
+        var div2 = document.getElementById("div2");
+        var div3 = document.getElementById("div3");
+        var div4 = document.getElementById("div4");
+        var div5 = document.getElementById("div5");
+        var div6 = document.getElementById("div6");
+        var div7 = document.getElementById("div7");
+        var div8 = document.getElementById("div8");
+        var div9 = document.getElementById("div9");
+        var div10 = document.getElementById("div10");
+        var div11 = document.getElementById("div11");
+        var div12 = document.getElementById("div12");
+        var div13 = document.getElementById("div13");
+        var div14 = document.getElementById("div14");
+
+
+
+        if (id == 1) {
+            link1.className = "tab_selected";
+            link2.className = "tab";
+            div1.style.display = '';
+            div2.style.display = 'none';
+        }
+        else if (id == 2) {
+            link1.className = "tab";
+            link2.className = "tab_selected";
+            div1.style.display = 'none';
+            div2.style.display = '';
+        }
+        else if (id == 3) {
+            link3.className = "tab_selected";
+            link4.className = "tab";
+            div3.style.display = '';
+            div4.style.display = 'none';
+        }
+        else if (id == 4) {
+            link3.className = "tab";
+            link4.className = "tab_selected";
+            div3.style.display = 'none';
+            div4.style.display = '';
+        }
+        else if (id == 5) {
+            link5.className = "tab_selected";
+            link6.className = "tab";
+            link9.className = "tab";
+            div5.style.display = '';
+            div6.style.display = 'none';
+            div9.style.display = 'none';
+        }
+        else if (id == 6) {
+            link5.className = "tab";
+            link6.className = "tab_selected";
+            link9.className = "tab";
+            div5.style.display = 'none';
+            div6.style.display = '';
+            div9.style.display = 'none';
+        }
+        else if (id == 7) {
+            link7.className = "tab_selected";
+            link8.className = "tab";
+            div7.style.display = '';
+            div8.style.display = 'none';
+        }
+        else if (id == 8) {
+            link7.className = "tab";
+            link8.className = "tab_selected";
+            div7.style.display = 'none';
+            div8.style.display = '';
+        }
+        else if (id == 9) {
+            link5.className = "tab";
+            link6.className = "tab";
+            link9.className = "tab_selected";
+            div5.style.display = 'none';
+            div6.style.display = 'none';
+            div9.style.display = '';
+        }
+        else if (id == 10) {
+            link10.className = "tab_selected";
+            link11.className = "tab";
+            link12.className = "tab";
+            div10.style.display = '';
+            div11.style.display = 'none';
+            div12.style.display = 'none';
+        }
+        else if (id == 11) {
+            link10.className = "tab";
+            link11.className = "tab_selected";
+            link12.className = "tab";
+            div10.style.display = 'none';
+            div11.style.display = '';
+            div12.style.display = 'none';
+        }
+        else if (id == 12) {
+            link10.className = "tab";
+            link11.className = "tab";
+            link12.className = "tab_selected";
+            div10.style.display = 'none';
+            div11.style.display = 'none';
+            div12.style.display = '';
+        }
+
+        else if (id == 13) {
+            link13.className = "tab_selected";
+            link14.className = "tab";
+            div13.style.display = '';
+            div14.style.display = 'none';
+        }
+        else if (id == 14) {
+            link13.className = "tab";
+            link14.className = "tab_selected";
+            div13.style.display = 'none';
+            div14.style.display = '';
+        }
+    };
+</script>
+
+<html>
+    <head runat="server">
+    <meta charset="utf-8">
+
+    <title></title>
+    <script type="text/javascript">  
+        $(document).ready(function () {
+            $("form").bind("keypress", function (e) {
+                if (e.keyCode == 13) {
+                    return false;
+                }
+            });
+        });
+    </script>
+
+    <style type="text/css">
+        .Background {
+            background-color: Black;
+            filter: alpha(opacity=90);
+            opacity: 0.8;
+        }
+
+        .Popup {
+            background-color: #FFFFFF;
+            border-width: 0px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 0px;
+            padding-left: 0px;
+            width: 45%;
+            height: 45%;
+        }
+
+        .lbl {
+            font-size: 16px;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header" class="header">
+            <%-- %12 --%>
+            <div id="logo" class="logo_baslik">
+                <img src="images/depar_logo.png" class="logo_baslik" style="padding-top: 2px; width: 100%" />
+            </div>
+            <%-- %72 --%>
+            <div id="baslik" class="logo_baslik" style="text-align: center; font-family: 'Times New Roman'; padding-top: 2px; font-size: x-large">
+                Depar Motor Yataklarý Web ERP 
+            </div>
+            <%-- &16 --%>
+            <div id="oturum" class="logo_baslik" style="width: 6%; margin-left: 1%; text-align: center">
+                <asp:LoginName ID="LoginName2" runat="server" Font-Bold="false" />
+            </div>
+            <div id="oturum2" class="logo_baslik" style="width: 6%; margin-left: 1%; background-color: white; text-align: center">
+                <asp:LoginStatus ID="LoginStatus2" runat="server" CssClass="btn btn-warning" Font-Size="X-Small" Height="40px" Width="100%" />
+            </div>
+        </div>
+
+
+        <div id='cssmenu'>
+            <ul>
+                <li class='active has-sub'><a href='dashboard.aspx'><span>Anasayfa</span></a>
+                    <ul>
+                        <li class='has-sub'><a href='#'><span>Sistem</span></a>
+                            <ul>
+                                <li class='has-sub'><a href='#'><span>Sistem Paramt.</span></a>
+                                    <ul>
+                                        <li><a href='sistem_parametrileri.aspx'><span>Sistem Paramt.</span></a></li>
+
+                                    </ul>
+                                </li>
+                                <li class='has-sub'><a href='#'><span>Üretim Paramt.</span></a>
+                                    <ul>
+                                        <li><a href='sablon_spekler.aspx'><span>Þablon Spekler</span></a></li>
+                                        <li><a href='üretim_asamalari.aspx'><span>Proses Tanýmlarý</span></a></li>
+                                        <li><a href='is_merkezleri.aspx'><span>Tezgahlar</span></a></li>
+                                        <li><a href='halita.aspx'><span>Halita Tanýmlarý</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='has-sub'><a href='#'><span>Satýþ</span></a>
+                            <ul>
+                                <li><a href='cari_kartlar.aspx'><span>Cari Kartlar</span></a></li>
+                                <li><a href='teklif_page.aspx'><span>Teklif Giriþ</span></a></li>
+                                <li><a href='siparis_page.aspx?&evrakno=0'><span>Sipariþ Giriþ</span></a></li>
+                                <li><a href='sevk_irsaliyesi.aspx'><span>Sevk Ýrsaliyesi</span></a></li>
+                            </ul>
+                        </li>
+                        <li class='has-sub'><a href='#'><span>Satýnalma</span></a>
+
+                        </li>
+                        <li class='has-sub'><a href='#'><span>Üretim</span></a>
+                            <ul>
+                                <li><a href='open_orders.aspx'><span>Açýk Bekleyen Sipariþler</span></a></li>
+                                <li><a href='uretim_is_emri.aspx'><span>Üretim Ýþ Emri Giriþ</span></a></li>
+                                <li><a href='uretim_is_emri_tamamlama.aspx'><span>iþ Emri Tamamlama</span></a></li>
+                                <li><a href='urun_listesi.aspx'><span>Ürün listesi</span></a></li>
+                            </ul>
+                        </li>
+                        <li class='has-sub'><a href='#'><span>Stok/Depo Yönetim</span></a>
+                            <ul>
+                                <li><a href='stok_kartlari.aspx'><span>Stok Kartlarý</span></a></li>
+                                <li><a href='depolar_arasi_transfer.aspx'><span>Depolar arasý transfer</span></a></li>
+                                <li><a href='sarf_islemleri.aspx'><span>Sarf iþlemleri</span></a></li>
+                                <li><a href='barcode_islemleri.aspx'><span>Barkod iþlemleri</span></a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder ID="scripts" runat="server" />
+    </form>
+</body>
+
+</html>
+<script>
+    var tableclient2;
+    google.charts.load('current', { 'packages': ['table'] });
+    google.charts.setOnLoadCallback(drawTable2);
+
+    $(document).ready(function () {
+        $.ajax({
+            url: "dashboard.aspx/table_Client2",
+            data: "",
+            dataType: "json",
+            type: "POST",
+            contentType: "application/json; chartset=utf-8",
+            success: function (data) {
+                tableclient2 = data.d;
+            },
+            error: function () {
+                //alert("Error loading data! Please try again.");  
+            }
+        }).done(function () {
+            // after complete loading data  
+            google.setOnLoadCallback(drawTable2);
+            drawTable2();
+        });
+    });
+
+    function drawTable2() {
+        var data = google.visualization.arrayToDataTable(tableclient2);
+        var options = {
+            title: "Ay Bazlý Ort. Teklif Cevap Süresi (Gün)",
+        };
+
+        var table = new google.visualization.Table(document.getElementById('table_div2'));
+        table.draw(data, { showRowNumber: true, width: '100%', height: '100%' });
+    }
+
+
+    //*** pasta grafik
+
+    var PiechartDataClient2;
+    google.load("visualization", "1", {
+        packages: ["corechart"]
+    });
+
+    $(document).ready(function () {
+        // Client Pie Chart  
+        $.ajax({
+            url: "dashboard.aspx/GetPieChartData_Client",
+            data: "",
+            dataType: "json",
+            type: "POST",
+            contentType: "application/json; chartset=utf-8",
+            success: function (data) {
+                PiechartDataClient2 = data.d;
+            },
+            error: function () {
+                //alert("Error loading data! Please try again.");  
+            }
+        }).done(function () {
+            // after complete loading data  
+            google.setOnLoadCallback(drawPieChartClient2);
+            drawPieChartClient2();
+        });
+    });
+
+    function drawPieChartClient2() {
+        var data = google.visualization.arrayToDataTable(PiechartDataClient2);
+        var options = {
+            title: "Geçikmeli Sipariþ Adetleri",
+            pieHole: 0.2,
+            pointSize: 5
+        };
+        var pieChart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        pieChart.draw(data, options);
+    }
+
+</script>
